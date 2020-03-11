@@ -53,6 +53,6 @@ class Student
   end
 
   def self.create(name, grade)
-    save(name, grade)
+    self.save(name, grade)
   end
 end
