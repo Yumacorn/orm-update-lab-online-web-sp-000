@@ -56,4 +56,7 @@ class Student
     new_student = Student.new(name,grade)
     new_student.save
   end
+
+  def self.new_from_db(row)
+  end
 end
